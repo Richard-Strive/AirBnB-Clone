@@ -1,10 +1,10 @@
 import React from "react";
 import Home from "./components/Home";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="app">
-      <h1>I'm app.js</h1>
       {/* Pseudo coddiamo lol. inziamo a dare un "ombra al nostro codice" tutta la bella compagnia sottostante e' contenuta nella home */}
 
       {/*Home*/}
@@ -13,6 +13,7 @@ function App() {
       {/*Search*/}
       {/* Cards */}
       {/* Footer */}
+      <Header />
       <Home />
     </div>
   );

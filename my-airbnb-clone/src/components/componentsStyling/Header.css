@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky; /* Fissare l'edder lol*/
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+}
+
+.header_icon {
+  object-fit: contain;
+  /* per far si che quando manipoliamo le dimensione della nostra immagine potremmo non alterarne la qualita' OVVIAMENTE QUESTO VALE QUANDO L'IMMAGINE E' PRESENTE ALL'INTERNO DI UN CONTAINER*/
+  height: 100px;
+  margin-left: 20px;
+}
+
+.header_center {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  /*flex 1 da un po piu di spazio all'elemento*/
+  max-width: fit-content;
+  /*il max-width e' utilizzato per indicare la massima larghezza che puo' assumere un elemento. "fit-content" e' self explaining */
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+
+.header_center > input {
+  border: none;
+  outline-width: 0;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15vw;
+  margin-right: 20px;
+}
