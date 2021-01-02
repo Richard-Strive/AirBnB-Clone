@@ -39,3 +39,8 @@
   color: white;
   text-transform: inherit !important;
 }
+
+.search > button:hover {
+  color: #ff7779;
+  background-color: white;
+}
