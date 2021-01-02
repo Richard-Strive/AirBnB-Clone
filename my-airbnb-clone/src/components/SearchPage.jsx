@@ -23,6 +23,24 @@ function SearchPage() {
         price={500}
         total={590}
       />
+      <SearchResult
+        img="https://image.shutterstock.com/image-photo/stuck-box-600w-425342395.jpg"
+        title="Testing"
+        star={5}
+        description="lovely place with a lot of nature"
+        location="London"
+        price={500}
+        total={590}
+      />
+      <SearchResult
+        img="https://image.shutterstock.com/image-photo/stuck-box-600w-425342395.jpg"
+        title="Testing"
+        star={5}
+        description="lovely place with a lot of nature"
+        location="London"
+        price={500}
+        total={590}
+      />
     </div>
   );
 }
